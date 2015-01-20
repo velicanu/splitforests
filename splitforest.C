@@ -18,7 +18,7 @@ void splitforest(string forest, int start, int end)
 
 int main(int argc, char *argv[])
 {
-  if(argc != 3)
+  if(argc != 4)
   {
     std::cout << "Usage: <input> <start> <end>" << std::endl;
     return 1;
